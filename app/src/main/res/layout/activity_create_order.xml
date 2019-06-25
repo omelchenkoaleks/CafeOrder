@@ -32,6 +32,7 @@
         app:layout_constraintTop_toBottomOf="@id/hello_text_view">
 
         <RadioButton
+            android:id="@+id/tea_radio_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"
@@ -41,6 +42,7 @@
             android:textColor="@color/colorWhite" />
 
         <RadioButton
+            android:id="@+id/coffee_radio_button"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_margin="8dp"

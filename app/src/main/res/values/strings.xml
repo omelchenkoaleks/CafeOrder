@@ -10,7 +10,7 @@
     <string name="hello_user_text_view">Привет, %s! Что будете заказывать?</string>
     <string name="tea_radio_button">Чай</string>
     <string name="coffee_radio_button">Кофе</string>
-    <string name="additions_text_view">Что добавить в ваш чай?</string>
+    <string name="additions_text_view">Что добавить в ваш %s?</string>
     <string name="milk_check_box">Молоко</string>
     <string name="sugar_check_box">Сахар</string>
     <string name="lemon_check_box">Лимон</string>
@@ -30,6 +30,13 @@
     </string-array>
 
     <string name="tea">Чай</string>
+    <string name="coffee">Кофе</string>
+    <string name="milk">Молоко</string>
+    <string name="sugar">Сахар</string>
+    <string name="lemon">Лемон</string>
+
     <string name="default_name">клиент</string>
     <string name="default_password">пароль</string>
+    <string name="order">Имя: %s Пароль: %s Напиток: %s Вид напитка: %s</string>
+    <string name="need_additions">Необходимые добавки:</string>
 </resources>
