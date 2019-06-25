@@ -117,7 +117,7 @@ public class CreateOrderActivity extends AppCompatActivity {
 
         String additions;
         if (mAdditionsStringBuilder.length() > 0) {
-            additions = getString(R.string.need_additions) + mAdditionsStringBuilder.toString();
+            additions = "\n" + getString(R.string.need_additions) + mAdditionsStringBuilder.toString();
         } else {
             additions = "";
         }
